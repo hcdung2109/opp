@@ -1,11 +1,6 @@
 <?php
 class Product extends Connection
 {
-    private $id;
-    private $name;
-    private $email;
-    private $pwd;
-
     public function __construct()
     {
         // gọi phương thức __construct của lớp Cha

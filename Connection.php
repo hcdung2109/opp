@@ -29,4 +29,20 @@ class Connection
 
         return $this->con;
     }
+
+    // Thêm dữ liệu
+    public function create()
+    {
+        echo 'hàm thêm';
+    }
+
+    protected function methodProtectedParent()
+    {
+        echo 'phuong thuc protected lớp cha';
+    }
+
+    protected function methodProtectedPrivated()
+    {
+        echo 'phuong thuc privated lớp cha';
+    }
 }
