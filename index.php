@@ -37,8 +37,9 @@
     //$banner->add('Samsung Khuyến Mại', 'samsung-khuyen-mai');
     ///$banner->create();
     //$banner->methodProtected();
+    $banner->methodPublic();
     //$banner->methodProtectedPrivated();
-    // KL: Không thể biến, hàm có phậm vị protected,privated ngoại lớp
+    // KL: Không thể sử dụng biến, hàm có phậm vị protected,privated ngoại lớp
 
     // Ví dụ phạm vi của Biến
     //echo $banner->test;

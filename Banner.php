@@ -28,6 +28,11 @@ class Banner extends Connection
 
     private function methodPrivate()
     {
-        echo 'test method private';
+        echo 'test pahm vi hàm là private';
+    }
+
+    public function methodPublic()
+    {
+        echo 'test pham vi cua hàm là public';
     }
 }
